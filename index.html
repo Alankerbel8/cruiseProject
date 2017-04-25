@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cruises</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/cruises.css">
+        
+<body>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid one">
+    <row>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header col-sm-3 col-sm-offset-1">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      
+      
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-left col-sm-8">
+      <li><a href="#" title="home">Home</a></li>
+      <li><a href="#" title="cruise blog">Cruise blog</a></li>
+      <li><a href="#" title="cruises">Cruises</a></li>
+      <li><a href="#" title="contact" class="current">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </row>
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+
+<div class="container">
+ 
+    <h1>Choose Your Sailings</h1>
+  
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+
+    <form name="builder">
+
+    <div class="col-md-4 one">
+      <img src="assets/img/ship1.jpg" class="img-responsive">
+      <div class="backwhite">
+      <div class="behindojtag">.</div>
+      <div class="ojtag"><h6>Starting at</h6><h4 class="ojprice">$198</h4></div>
+      <h2>Russia</h2>
+
+      <input type="radio" name="first" value="300" onclick='check_value(this, 1)' />
+      <p>Sailing Date 1-1</p><span class="pull-right dollars">$300</span><br />
+      <input type="radio" name="first" value="198" onclick='check_value(this, 2)' />
+      <p>Sailing Date 1-2</p><span class="pull-right dollars">$198</span><br />
+      <input type="radio" name="first" value="200" onclick='check_value(this, 3)' />
+      <p>Sailing Date 1-3</p><span class="pull-right dollars">$200</span><br />
+
+    </div>  <!-- end of backwhite -->
+    </div> <!-- end of col-md-4 -->
+
+    <div class="col-md-4 two">
+      <img src="assets/img/ship2.jpg" class="img-responsive">
+      <div class="backwhite">
+      <div class="behindojtag">.</div>
+      <div class="ojtag"><h6>Starting at</h6><h4 class="ojprice">$300</h4></div>
+      <h2>United States</h2>
+
+      <input type="radio" name="second" value="300" onclick='check_value(this, 1)' />
+      <p>Sailing Date 2-1</p><span class="pull-right dollars">$300</span><br />
+      <input type="radio" name="second" value="350" onclick='check_value(this, 2)' />
+      <p>Sailing Date 2-2</p><span class="pull-right dollars">$350</span><br />
+      <input type="radio" name="second" value="400" onclick='check_value(this, 3)' />
+      <p>Sailing Date 2-3</p><span class="pull-right dollars">$400</span><br />
+
+    </div>  <!-- end of backwhite -->
+    </div> <!-- end of col-md-4 -->
+
+    <div class="col-md-4 three">
+      <img src="assets/img/ship3.jpg" class="img-responsive">
+      <div class="backwhite">
+      <div class="behindojtag">.</div>
+      <div class="ojtag"><h6>Starting at</h6><h4 class="ojprice">$250</h4></div>
+      <h2>Canada</h2>
+
+      <input type="radio" name="third" value="350" onclick='check_value(this, 1)' />
+      <p>Sailing Date 3-1</p><span class="pull-right dollars">$350</span><br />
+      <input type="radio" name="third" value="300" onclick='check_value(this, 2)' />
+      <p>Sailing Date 3-2</p><span class="pull-right dollars">$300</span><br />
+      <input type="radio" name="third" value="250" onclick='check_value(this, 3)' />
+      <p>Sailing Date 3-3</p><span class="pull-right dollars">$250</span><br />
+
+    </div>  <!-- end of backwhite -->
+    </div> <!-- end of col-md-4 -->
+
+    </form>
+
+  </div> <!-- end of row -->
+</div> <!-- end of container-fluid -->
+
+     <hr>
+
+<div class="container-fluid one">
+  <div class="row">
+    <div class="col-sm-7 col-sm-offset-2 col-xs-6 col-xs-offset-1 offsets">
+      <h3 class="footerh3">Your Selected Sailings Total</h3>
+    </div>
+    <div class="col-sm-2 col-xs-5">
+      <h3 style="background-color: #E2A741; padding:10px;">$ <span id="total"> </span></h3>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
